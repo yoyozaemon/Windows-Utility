@@ -73,6 +73,7 @@ $inputXML = @"
 
 							
 						</StackPanel>
+						
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
 							<Label Content="Document" FontSize="16" Margin="5,0"/>
