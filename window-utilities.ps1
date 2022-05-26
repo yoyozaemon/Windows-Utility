@@ -14,7 +14,7 @@ $inputXML = @"
         xmlns:local = "clr-namespace:WinUtility"
         mc:Ignorable="d"
         Background="#777777"
-        Title=" Window Utility" Height="533" Width="786">
+        Title=" Window Utility By YoYoZaemon" Height="533" Width="786">
 	<Viewbox>
 		<Grid Background="#777777" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
@@ -22,7 +22,7 @@ $inputXML = @"
 				<ColumnDefinition Width="7*"/>
 			</Grid.ColumnDefinitions>
 			<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0">
-				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source=" https://download.logo.wine/logo/Microsoft_Windows/Microsoft_Windows-Logo.wine.png " Margin="0,10,0,10"/>
+				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source="https://png.pngitem.com/pimgs/s/47-471403_windows-10-start-icon-png-transparent-png.png " Margin="0,10,0,10"/>
 				<Button Content="Install" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
 				<Button Content="Tweaks" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
 				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
