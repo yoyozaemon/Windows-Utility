@@ -13,30 +13,30 @@ $inputXML = @"
         xmlns:mc = "http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local = "clr-namespace:WinUtility"
         mc:Ignorable="d"
-        Background="#777777"
-        Title=" Window Utility By YoYoZaemon" Height="533" Width="786">
+        Background="#004578"
+        Title=" Window Utility" Height="533" Width="786">
 	<Viewbox>
-		<Grid Background="#777777" ShowGridLines="False" Name="MainGrid">
+		<Grid Background="#004578" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="3*"/>
 				<ColumnDefinition Width="7*"/>
 			</Grid.ColumnDefinitions>
-			<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0">
-				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source="https://png.pngitem.com/pimgs/s/47-471403_windows-10-start-icon-png-transparent-png.png " Margin="0,10,0,10"/>
-				<Button Content="Install" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
-				<Button Content="Tweaks" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
-				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
-				<Button Content="Updates" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
+			<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="0">
+				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source=" https://download.logo.wine/logo/Microsoft_Windows/Microsoft_Windows-Logo.wine.png " Margin="0,10,0,10"/>
+				<Button Content="Install" VerticalAlignment="Top" Height="40" Background="#005a9e" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
+				<Button Content="Tweaks" VerticalAlignment="Top" Height="40" Background="#106ebe" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
+				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#0078d4" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
+				<Button Content="Updates" VerticalAlignment="Top" Height="40" Background="#2b88d8" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
 			</StackPanel>
 			<TabControl Grid.Column="1" Padding="-1" Name="TabNav" SelectedIndex="0">
 				<TabItem Header="Install" Visibility="Collapsed" Name="Tab1">
-					<Grid Background="#222222">
+					<Grid Background="#005a9e">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
 							<Label Content="Browsers" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
 							<CheckBox Name="Installchrome" Content="Google Chrome" Margin="5,0"/>
@@ -74,7 +74,7 @@ $inputXML = @"
 							
 						</StackPanel>
 						
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
 							<Label Content="Document" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
@@ -114,7 +114,7 @@ $inputXML = @"
 							<CheckBox Name="Installvoicemeeter" Content="Voicemeeter (Audio)" Margin="5,0"/>
 
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
 							<Label Content="Utilities" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
 							<CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
@@ -143,7 +143,7 @@ $inputXML = @"
 					</Grid>
 				</TabItem>
 				<TabItem Header="Tweaks" Visibility="Collapsed" Name="Tab2">
-					<Grid Background="#333333">
+					<Grid Background="#106ebe">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
@@ -152,13 +152,13 @@ $inputXML = @"
 							<RowDefinition Height="1*"/>
 							<RowDefinition Height="6*"/>
 						</Grid.RowDefinitions>
-						<StackPanel Background="#777777" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2">
+						<StackPanel Background="#004578" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2">
 							<Label Content="Recommended Selections:" FontSize="17" VerticalAlignment="Center"/>
 							<Button Name="desktop" Content="Desktop" Margin="7"/>
 							<Button Name="laptop" Content="Laptop" Margin="7"/>
 							<Button Name="minimal" Content="Minimal" Margin="7"/>
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="0" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="0" Margin="10,5">
 							<Label FontSize="16" Content="Essential Tweaks"/>
 							<CheckBox Name="EssTweaksRP" Content="Create Restore Point" Margin="5,0"/>
 							<CheckBox Name="EssTweaksOO" Content="Run O and O Shutup" Margin="5,0"/>
@@ -174,7 +174,7 @@ $inputXML = @"
 
 
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
 							<Label FontSize="16" Content="Misc. Tweaks"/>
 							<CheckBox Name="MiscTweaksPower" Content="Disable Power Throttling" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksLapPower" Content="Enable Power Throttling" Margin="5,0"/>
@@ -191,12 +191,12 @@ $inputXML = @"
 					</Grid>
 				</TabItem>
 				<TabItem Header="Config" Visibility="Collapsed" Name="Tab3">
-					<Grid Background="#444444">
+					<Grid Background="#0078d4">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="0" Margin="10,5">
 							<Label Content="Features" FontSize="16"/>
 							<CheckBox Name="Featuresdotnet" Content="All .Net Framework (2,3,4)" Margin="5,0"/>
 							<CheckBox Name="Featureshyperv" Content="HyperV Virtualization" Margin="5,0"/>
@@ -208,7 +208,7 @@ $inputXML = @"
 							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Reset Windows Update" Margin="20,5,20,0" Padding="10"/>
 
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
 							<Label Content="Legacy Windows Panels" FontSize="16"/>
 							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Control Panel" Margin="20,5,20,5" Padding="10"/>
 							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Network Connections" Margin="20,0,20,5" Padding="10"/>
@@ -220,22 +220,22 @@ $inputXML = @"
 					</Grid>
 				</TabItem>
 				<TabItem Header="Updates" Visibility="Collapsed" Name="Tab4">
-					<Grid Background="#555555">
+					<Grid Background="#2b88d8">
 						<Grid.RowDefinitions>
 							<RowDefinition/>
 							<RowDefinition/>
 							<RowDefinition/>
 						</Grid.RowDefinitions>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="0" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Row="0" Margin="10,5">
 
 							<TextBlock Text="This is the default settings that come with Windows. No modifications are made and will remove any custom windows update settings." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
 							<Button Name="Updatesdefault" FontSize="16" Background="AliceBlue" Content="Default (Out of Box) Settings" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Row="1" Margin="10,5">
 							<TextBlock Text="This is my recommended setting I use on all computers. It will delay feature updates by 2 years and will install security updates 4 days after release. These are the settings I use in buisness environments." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
 							<Button Name="Updatessecurity" FontSize="16" Background="AliceBlue" Content="Security (Recommended) Settings" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
-						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="2" Margin="10,5">
+						<StackPanel Background="#004578" SnapsToDevicePixels="True" Grid.Row="2" Margin="10,5">
 							<TextBlock Text="This completely disables ALL Windows Updates and is NOT RECOMMENDED. You system will be easier to hack and infect without security updates. However, it can be suitable if you use your system for a select purpose and do not actively browse the internet." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
 							<Button Name="Updatesdisable" FontSize="16" Background="AliceBlue" Content="Disable ALL Updates (NOT RECOMMENDED!)" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
